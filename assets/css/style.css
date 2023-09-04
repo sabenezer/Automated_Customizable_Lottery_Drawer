@@ -1,0 +1,138 @@
+.page-header {
+  height: 5vh;
+  background-color: #fff;
+}
+
+/* .page-body {
+  height: 79vh;
+} */
+
+.page-footer {
+  height: 15vh;
+  background-color: #076b9c;
+}
+
+.odometer-container {
+  background-color: #0593d3;
+}
+
+.gift-container {
+  background-color: #fff;
+}
+
+.abay-logo {
+  position: relative;
+}
+
+.abay-logo img {
+  position: absolute;
+  margin-top: 10px;
+
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bnt-draw-lottery {
+  background-image: url("../img/btn.png");
+  background-size: 80px 80px;
+  background-position: left top;
+  background-repeat: no-repeat;
+
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  font-size: 1.4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bnt-draw-lottery:hover {
+  cursor: pointer;
+}
+
+.img-progress {
+  width: 80px;
+  height: 80px;
+  border: 2px #076b9c solid;
+}
+
+.animation-holder {
+  position: relative;
+}
+
+#confetti-canvas {
+  display: block;
+  z-index: 999999;
+  pointer-events: none;
+  position: absolute;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-1-5 {
+  flex: 1.5;
+}
+
+.lottery-round-number {
+  font-size: 7rem;
+}
+
+.lottery-round sup {
+  font-size: 3.5rem;
+}
+
+.lottery-round-text {
+  font-size: 5rem;
+}
+
+.winners-list {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.winners-list .lottery-num {
+  border: #076b9c 1px solid;
+}
+
+.blink-animation {
+  animation: blink 1s steps(3, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.lot-order-animation-holder {
+  position: relative;
+}
+.lot-order-animation-holder .anim-holder-inner {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lot-order-animation-holder .anim-text-area {
+  background-color: rgb(0, 0, 0, 0.7);
+  padding: 10px 50px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 3rem;
+}

@@ -1,0 +1,10 @@
+{
+  "type": "project",
+  "description": "Abay Bank Lottery Draws.",
+  "license": "Abay Bank S.C",
+  "autoload": {
+    "psr-4": {
+      "Lib\\": "lib"
+    }
+  }
+}
